@@ -23,64 +23,77 @@ h1 {
     display: block;
     margin: auto;
 }
+/*I wanted to add a border to the main part of the page*/
 .main  {
     margin-left: 25%;
 }
+
 h2 {
     font-size: 30px;
     background-color: #290F13;
 }
+/*I wanted to add Emojis instead of bullet points to make it more fun*/
 ul {
     list-style-type: '\1f4d6';
 }
-
+/*I had to add padding to create a little more space between the emojis and the list items*/
 li {
     font-size: 20px;
     padding-left: 10px;
 }
+
 h3 {
     font-size: 25px;
     padding-left: 25%;
     background-color: #290F13;
     margin-right: 25%;
 }
+/*Added the line height and the bottom margin to make the spacing a bit better*/
 .linkedPages {
     line-height: 23px;
     margin-bottom: 25px;
 }
+/*I wanted to space this out better as well, got rid of the "link" look of the url links*/
 .otherPage {
     margin-left: 25%;
     font-size: 16px;
     color: #F5C8B9;
     text-decoration: none;
 }
+/*Added styling for when the cursor hovers over the links to help with UX*/
 .otherPage:hover {
     background-color:#290F13;
    
 }
+/*Wanted this centered so it didn't look strange having a piece of text off to the left of the screen*/
 #emailForm {
     text-align: center;
 }
+
 .tableDescription {
     text-align: center;
 }
+/*Centered this table and added space to the sides to help the flow of the site*/
 table {
     width: 75%;
     margin-bottom: 20px;
     margin:0 auto;
 }
+
 tbody, tr, td {
     color: #F5C8B9 ;
 }
-
+/*Watned to get rid of the look of a regular link*/
 .bookLinks {
     text-decoration: none;
     color: #F5C8B9;
 }
+/*Added styling for when the cursor hovers over the links to help with UX*/
 .bookLinks:hover {
     background-color: #290F13;
     color: #F5C8B9;
 }
+/*wanted the heading of each column to stand out compaired to the rest of the table*/
 th, td {
     padding: 8px;
     border-bottom: 1px solid #F5C8B9;
