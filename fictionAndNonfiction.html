@@ -8,12 +8,13 @@
     <title>Fiction and Nonfiction Recommendations</title>
 </head>
 <body>
+    <div class="fullPage">
 <!--Main Heading-->
     <h1>Fiction and Nonfiction Recommendations</h1>
 <!--Image using a hyperlink with a relative path-->
-    <img src="fictionAndNonfictionImage.webp" alt="Eight fiction and nonfiction books">
+    <img id="bookImage" src="fictionAndNonfictionImage.webp" alt="Eight fiction and nonfiction books">
 <!--Text with paragraph tag-->
-    <p>If you would like to purchase the book that is listed, click on the book title and it will direct you to the Amazon page.</p>
+    <p class="tableDescription">If you would like to purchase the book that is listed, click on the book title and it will direct you to the Amazon page.</p>
 <!--Table with links to Amazon listing a few book recommendations-->
     <table>
         <thead>
@@ -25,38 +26,44 @@
         </thead>
         <tbody>
             <tr>
-                <td><a target="_blank" href="https://www.amazon.com/Girl-Who-Was-Taken/dp/1496736982/ref=sr_1_1?dib=eyJ2IjoiMSJ9.18ZHXMgGndXGD5oEeSZyaPodnGpqJXncHXNYKggeTIQtR_IxtVsZ6QQeU8pZbL7RP_0PdAql0VW7zmB8qSuYQruvyDxTL-3AKgqDwdebA1-BkjMm99zD72DZRWRudxtQLN0tMifuxf4Ziqr416T-poo3eLnzkbtgZSDhOVgEvObMSX5M-_q1o87kuRv2vZp-1FtAWuNAOvlsOF8Q9lye71MAMOuoiWgFjxlJWSNH6xGADEc6gtiwQ9_Kn-Lqpo-EbfpmFjN8NP3V0BJZb6Jk4Xumv6Q8rEJgRntiecQhuAs.WoLcm3f54t2UqUAtv-jWsoe5OpFEZDb3Jvo7tSl2dm8&dib_tag=se&hvadid=653781869002&hvdev=c&hvlocphy=9018860&hvnetw=g&hvqmt=e&hvrand=491098950132188863&hvtargid=kwd-1964944909361&hydadcr=7662_13589736&keywords=top+ten+fiction+books+2023&qid=1710032164&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">The Girl Who Was Taken</a></td>
+                <td><a target="_blank" class= "bookLinks" href="https://www.amazon.com/Girl-Who-Was-Taken/dp/1496736982/ref=sr_1_1?dib=eyJ2IjoiMSJ9.18ZHXMgGndXGD5oEeSZyaPodnGpqJXncHXNYKggeTIQtR_IxtVsZ6QQeU8pZbL7RP_0PdAql0VW7zmB8qSuYQruvyDxTL-3AKgqDwdebA1-BkjMm99zD72DZRWRudxtQLN0tMifuxf4Ziqr416T-poo3eLnzkbtgZSDhOVgEvObMSX5M-_q1o87kuRv2vZp-1FtAWuNAOvlsOF8Q9lye71MAMOuoiWgFjxlJWSNH6xGADEc6gtiwQ9_Kn-Lqpo-EbfpmFjN8NP3V0BJZb6Jk4Xumv6Q8rEJgRntiecQhuAs.WoLcm3f54t2UqUAtv-jWsoe5OpFEZDb3Jvo7tSl2dm8&dib_tag=se&hvadid=653781869002&hvdev=c&hvlocphy=9018860&hvnetw=g&hvqmt=e&hvrand=491098950132188863&hvtargid=kwd-1964944909361&hydadcr=7662_13589736&keywords=top+ten+fiction+books+2023&qid=1710032164&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">The Girl Who Was Taken</a></td>
                 <td>Fiction, Thriller</td>
                 <td>4.5/5 Stars</td>
             </tr>
             <tr>
-                <td><a target="_blank" href="https://www.amazon.com/Sleep-Experiment-edge-your-seat-psychological/dp/1988091381/ref=sr_1_2?dib=eyJ2IjoiMSJ9.18ZHXMgGndXGD5oEeSZyaPodnGpqJXncHXNYKggeTIQtR_IxtVsZ6QQeU8pZbL7RP_0PdAql0VW7zmB8qSuYQruvyDxTL-3AKgqDwdebA1-BkjMm99zD72DZRWRudxtQLN0tMifuxf4Ziqr416T-poo3eLnzkbtgZSDhOVgEvObMSX5M-_q1o87kuRv2vZp-1FtAWuNAOvlsOF8Q9lye71MAMOuoiWgFjxlJWSNH6xGADEc6gtiwQ9_Kn-Lqpo-EbfpmFjN8NP3V0BJZb6Jk4Xumv6Q8rEJgRntiecQhuAs.WoLcm3f54t2UqUAtv-jWsoe5OpFEZDb3Jvo7tSl2dm8&dib_tag=se&hvadid=653781869002&hvdev=c&hvlocphy=9018860&hvnetw=g&hvqmt=e&hvrand=491098950132188863&hvtargid=kwd-1964944909361&hydadcr=7662_13589736&keywords=top+ten+fiction+books+2023&qid=1710032744&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">The Sleep Experiment</a></td>
+                <td><a target="_blank" class= "bookLinks" href="https://www.amazon.com/Sleep-Experiment-edge-your-seat-psychological/dp/1988091381/ref=sr_1_2?dib=eyJ2IjoiMSJ9.18ZHXMgGndXGD5oEeSZyaPodnGpqJXncHXNYKggeTIQtR_IxtVsZ6QQeU8pZbL7RP_0PdAql0VW7zmB8qSuYQruvyDxTL-3AKgqDwdebA1-BkjMm99zD72DZRWRudxtQLN0tMifuxf4Ziqr416T-poo3eLnzkbtgZSDhOVgEvObMSX5M-_q1o87kuRv2vZp-1FtAWuNAOvlsOF8Q9lye71MAMOuoiWgFjxlJWSNH6xGADEc6gtiwQ9_Kn-Lqpo-EbfpmFjN8NP3V0BJZb6Jk4Xumv6Q8rEJgRntiecQhuAs.WoLcm3f54t2UqUAtv-jWsoe5OpFEZDb3Jvo7tSl2dm8&dib_tag=se&hvadid=653781869002&hvdev=c&hvlocphy=9018860&hvnetw=g&hvqmt=e&hvrand=491098950132188863&hvtargid=kwd-1964944909361&hydadcr=7662_13589736&keywords=top+ten+fiction+books+2023&qid=1710032744&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">The Sleep Experiment</a></td>
                 <td>Fiction, Thriller</td>
                 <td>4/5 Stars</td>
             </tr>
             <tr>
-                <td><a target="_blank" href="https://www.amazon.com/Watchmakers-Daughter-Story-Heroine-Corrie/dp/B0B5HWCXDD/ref=sr_1_23?dib=eyJ2IjoiMSJ9.C9Nmh4GPUOt_uyoMGjCkdE6edwGQqqzfEQexBomB11mPxguJ_7123dVjUXWDwhsEkaj0dWSu-ZOiaOO3K1INExV9znkQo_WYk8BFR25tsJWiLcIipqfcRR-v4qABVnK6Q7odE0WJZXcG-CrvkqQKptKjdyaD87EmmKwRGLD62xCdUBUmR2gMRGQzaUPryDfnywBUxClcuoEYSOOTS1hz0Vxno7t1FxDnmiAq3JBA3GviRVYy80q775NZjK40c3g3Ag9rUqWYDZ4TcEQgE-Yx7tmcKmn8o2_41i8zDfPFAkg.bOKep2AYnewrJFG3kNniRAM7ud75yfT0bHnr5EWWwOM&dib_tag=se&hvadid=665230071539&hvdev=c&hvlocphy=9018860&hvnetw=g&hvqmt=e&hvrand=12252213318210979896&hvtargid=kwd-1993030135910&hydadcr=7637_13469290&keywords=top+ten+non+fiction+books+2023&qid=1710033799&sr=8-23">The Watchmaker's Daughter</a></td>
+                <td><a target="_blank" class= "bookLinks" href="https://www.amazon.com/Watchmakers-Daughter-Story-Heroine-Corrie/dp/B0B5HWCXDD/ref=sr_1_23?dib=eyJ2IjoiMSJ9.C9Nmh4GPUOt_uyoMGjCkdE6edwGQqqzfEQexBomB11mPxguJ_7123dVjUXWDwhsEkaj0dWSu-ZOiaOO3K1INExV9znkQo_WYk8BFR25tsJWiLcIipqfcRR-v4qABVnK6Q7odE0WJZXcG-CrvkqQKptKjdyaD87EmmKwRGLD62xCdUBUmR2gMRGQzaUPryDfnywBUxClcuoEYSOOTS1hz0Vxno7t1FxDnmiAq3JBA3GviRVYy80q775NZjK40c3g3Ag9rUqWYDZ4TcEQgE-Yx7tmcKmn8o2_41i8zDfPFAkg.bOKep2AYnewrJFG3kNniRAM7ud75yfT0bHnr5EWWwOM&dib_tag=se&hvadid=665230071539&hvdev=c&hvlocphy=9018860&hvnetw=g&hvqmt=e&hvrand=12252213318210979896&hvtargid=kwd-1993030135910&hydadcr=7637_13469290&keywords=top+ten+non+fiction+books+2023&qid=1710033799&sr=8-23">The Watchmaker's Daughter</a></td>
                 <td>Nonfiction, historical</td>
                 <td>4.5/5 Stars</td>
             </tr>
             <tr>
-                <td><a target="_blank" href="https://www.amazon.com/Make-Your-Bed-William-H-McRaven-audiobook/dp/B06XKDM3QL/ref=sr_1_7?dib=eyJ2IjoiMSJ9.C9Nmh4GPUOt_uyoMGjCkdE6edwGQqqzfEQexBomB11mPxguJ_7123dVjUXWDwhsEkaj0dWSu-ZOiaOO3K1INExV9znkQo_WYk8BFR25tsJWiLcIipqfcRR-v4qABVnK6Q7odE0WJZXcG-CrvkqQKptKjdyaD87EmmKwRGLD62xCdUBUmR2gMRGQzaUPryDfnO4e8LBbfe3mJAwr8refvHxeLDkEPlqytMG9aBB2lcLniRVYy80q775NZjK40c3g3Ag9rUqWYDZ4TcEQgE-Yx7tmcKmn8o2_41i8zDfPFAkg.GHT38H15CSUT0iLv380eL6PppTEWIYfEGB2C4_Lx-1M&dib_tag=se&hvadid=665230071539&hvdev=c&hvlocphy=9018860&hvnetw=g&hvqmt=e&hvrand=12252213318210979896&hvtargid=kwd-1993030135910&hydadcr=7637_13469290&keywords=top+ten+non+fiction+books+2023&qid=1710034240&sr=8-7">Make Your Bed: Little Things That Can Change Your Life...and Maybe the World</a></td>
+                <td><a target="_blank" class= "bookLinks" href="https://www.amazon.com/Make-Your-Bed-William-H-McRaven-audiobook/dp/B06XKDM3QL/ref=sr_1_7?dib=eyJ2IjoiMSJ9.C9Nmh4GPUOt_uyoMGjCkdE6edwGQqqzfEQexBomB11mPxguJ_7123dVjUXWDwhsEkaj0dWSu-ZOiaOO3K1INExV9znkQo_WYk8BFR25tsJWiLcIipqfcRR-v4qABVnK6Q7odE0WJZXcG-CrvkqQKptKjdyaD87EmmKwRGLD62xCdUBUmR2gMRGQzaUPryDfnO4e8LBbfe3mJAwr8refvHxeLDkEPlqytMG9aBB2lcLniRVYy80q775NZjK40c3g3Ag9rUqWYDZ4TcEQgE-Yx7tmcKmn8o2_41i8zDfPFAkg.GHT38H15CSUT0iLv380eL6PppTEWIYfEGB2C4_Lx-1M&dib_tag=se&hvadid=665230071539&hvdev=c&hvlocphy=9018860&hvnetw=g&hvqmt=e&hvrand=12252213318210979896&hvtargid=kwd-1993030135910&hydadcr=7637_13469290&keywords=top+ten+non+fiction+books+2023&qid=1710034240&sr=8-7">Make Your Bed: Little Things That Can Change Your Life...<br>and Maybe the World</a></td>
                 <td>Nonfiction, Self help</td>
                 <td>4.5/5 Stars</td>
             </tr>
         </tbody>
     </table>
+<!--Tertiary header-->
     <h3>Go To:</h3>
 <!--Links to other pages-->
-    <a href="fictionAndNonfiction.html">Fiction and Nonfiction Books</a><br>
-    <a href="poetryAndDrama.html">Poetry and Drama Books</a><br>
-    <a href="index.html">Home Page</a>
+  <div class="linkedPages">
+    <a href="fictionAndNonfiction.html" class="otherPage">Fiction and Nonfiction Books</a><br>
+    <a href="poetryAndDrama.html" class="otherPage">Poetry and Drama Books</a><br>
+    <a href="index.html" class="otherPage">Home Page</a>
+    </div>
+    </div>
 <!--This is a form asking the user to input their email and click the submit button-->
+<div id="emailForm">
   <p>If you would like to get weekly book recommendations, please subscribe to our emailing list.</p>
   <form>
     <label for="email">Email:</label><br>
     <input type="email" name="email" id="email">
     <input type="submit" value="Submit">
   </form>
+  </div>
 </body>
 </html>

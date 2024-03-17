@@ -17,7 +17,8 @@ h1 {
     background-color: #290F13;
     margin-right: 25%;
 }
-#fourBooks {
+/*for the book images, I wanted to make them take up less space, but still centered so I made them block elements and set the margin to auto*/
+#bookImage {
     width: 50%;
     display: block;
     margin: auto;
@@ -60,3 +61,32 @@ h3 {
 #emailForm {
     text-align: center;
 }
+.tableDescription {
+    text-align: center;
+}
+table {
+    width: 75%;
+    margin-bottom: 20px;
+    margin:0 auto;
+}
+tbody, tr, td {
+    color: #F5C8B9 ;
+}
+
+.bookLinks {
+    text-decoration: none;
+    color: #F5C8B9;
+}
+.bookLinks:hover {
+    background-color: #290F13;
+    color: #F5C8B9;
+}
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #F5C8B9;
+}
+
+th {
+    background-color: #290F13;
+}
+
